@@ -2,6 +2,8 @@ body {
     background-color: #fff;
     min-width: 980px;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 #mainLogo {       
@@ -14,20 +16,36 @@ body {
 .mainLogo {
     padding-top: 109px;
     text-align: center;
-    height: 233px;
+    height: 133px;
     margin-top: 89px; 
     
 }
 
 #content {
     height: 443px;
-    width: 100%;
     min-width: 980px;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    min-width: 980px;
+    width: 100%;
+}
+
+header a {
+    text-decoration: none;
+    color: #222;
+}
+
+header a:hover {
+    text-decoration: underline;
 }
 
 #headerLeft {
     position: absolute;
-    top: 20px;
+    top: 25px;
+    left: 20px;
     display: inline-block;
     font-size: 13px;
     color: #222;
@@ -44,8 +62,8 @@ body {
 
 #headerRight {
     position: absolute;
-    top: 20px;
-    right: 10px;
+    top: 25px;
+    right: 20px;
     display: inline-block;
     font-size: 13px;
     color: #222;
@@ -88,6 +106,7 @@ body {
     height: 44px;
     width: 482px;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 #mainSearchBar {
@@ -117,4 +136,52 @@ body {
     line-height: 27px;
     height: 36px;
     text-align: center;
+}
+
+footer {
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    min-width: 980px;
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #5f6368;
+}
+
+footer a {
+    text-decoration: none;
+    color: #5f6368;
+    padding-right: 20px;
+}
+
+footer a:last-child {
+    padding-right: 0px;
+}
+
+#footerOrigin {
+    padding-left: 30px;
+    height: 40px;
+    border: 1px solid #c9c8c8;
+    margin-bottom: 40px;
+    line-height: 40px;
+    
+}
+
+#footerLeft {
+    height: 40px;
+    position: absolute;
+    left: 30px;
+    bottom: 0px;
+    line-height: 40px;
+}
+
+#footerRight {
+    height: 40px;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+    line-height: 40px;
 }
